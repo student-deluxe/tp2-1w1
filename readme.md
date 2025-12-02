@@ -6,4 +6,4 @@ lorem ipsum
 - Cours : 1W1-Mise en page Web
 - Département : TIM
 - Collège de Maisonneuve
-- Github-page :
+- Github-page : https://student-deluxe.github.io/tp2-1w1/
