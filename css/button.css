@@ -1,0 +1,11 @@
+/*.menu, #chk-burger{
+    display: none;
+}
+
+.menu a{
+    display: block;
+}
+*/
+#chk-burger:checked ~ .menu{
+    display: block;
+}

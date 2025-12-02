@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 14px;
+  font-family: "Caesar Dressing";
+}
+
+/* ///////////////////////////////// Général  */
+/* Les sélecteurs généraux ont un impact sur chacune des section de la page */
+body {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+figure {
+  margin: 0;
+}
+img {
+  display: block;
+  width: 100%;
+}
+
+section,
+header,
+footer {
+  min-height: 100vh;
+}
+
+.centre {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: rgb(240 248 255 / 57%);
+  padding: 30px;
+}
+
+/* ///////////////////////  Couleurs d'arrière plan de chacune des section */
+
+.conteneur:nth-of-type(1) {
+  background-color: bisque;
+}
+.conteneur:nth-of-type(2) {
+  background-color: rgb(100, 200, 23);
+}
+.conteneur:nth-of-type(3) {
+  background-color: rgb(17, 118, 138);
+}
+.conteneur:nth-of-type(4) {
+  background-color: rgb(163, 42, 182);
+}
+
+.conteneur:nth-of-type(5) {
+  background-color: rgb(228, 205, 27);
+}
+
+.conteneur:nth-of-type(6) {
+  background-color: rgb(44, 39, 4);
+}
+
+/* ////////////////////////////////////////////////// .hero */
+
+.hero {
+  background-image: url("../images/1315631.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  
+}
+
+.hero__h1 {
+  font-size: 4rem;
+}
+
+.dynapuff {
+  font-family: "Caesar Dressing";
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings: ;
+}
+
+.hero__bouton {
+  display: block;
+  padding: 10px;
+  background: linear-gradient(
+    264deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(26, 26, 199, 1) 100%
+  );
+  width: 200px;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.hero__bouton:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(26, 26, 199, 1) 100%
+  );
+}
+
+/* //////////////////////////////////////////// tableau .tableau */
+table {
+  margin: 0 auto;
+}
+
+.tableau {
+  width: 90%;
+  border-collapse: collapse;
+  border: 1px solid #aaa;
+}
+.tableau th {
+  border: 1px solid #aaa;
+  padding: 15px 5px;
+  text-align: left;
+  background-color: #ffffff3d;
+}
+.tableau td {
+  border: 1px solid #aaa;
+  padding: 10px 5px;
+  background-color: #ffffff6f;
+}
+/* //////////////////////////////////////////// pied de page .pied__section .pied*/
+
+.pied__section{
+  border: 1px solid #aaa;
+  display: inline-block;
+  width: 32%;
+  margin: 0 auto;
+}
+li{
+  list-style-type: none;
+}
