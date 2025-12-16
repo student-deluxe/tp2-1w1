@@ -26,12 +26,19 @@ img {
   width: 100%;
 }
 
-
 .centre {
   max-width: 1100px;
   margin: 0 auto;
   background-color: rgb(240 248 255 / 57%);
   padding: 30px;
+}
+
+.centre__hero{
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: rgb(240 248 255 / 57%);
+  padding: 30px;
+  height: 100vh;
 }
 
 /* ///////////////////////  Couleurs d'arrière plan de chacune des section */
@@ -116,6 +123,10 @@ img {
 }
 
 /* ////////////////////////////////////////////////// .hero */
+.hero {
+  height: 100vh;
+}
+
 .hero__p {
   display: flex;
   flex-direction: column;
@@ -190,8 +201,8 @@ img {
 /* ///////////////////////////////// Pied de page */
 .pied {
   display: flex;
-  flex-wrap: wrap;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .pied__section {
@@ -222,7 +233,6 @@ ul {
   padding: 0;
 }
 
-/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
   .centre {
     padding: 15px;
