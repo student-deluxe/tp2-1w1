@@ -107,7 +107,7 @@ img {
     rgba(25, 25, 26, 1) 0%,
     rgba(97, 32, 32, 0.3) 50%,
     rgba(0, 0, 0, 1) 100%
-  );
+  ), url("../images/background-1.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -117,7 +117,7 @@ img {
     rgba(25, 25, 26, 1) 0%,
     rgba(97, 32, 32, 0.3) 50%,
     rgba(0, 0, 0, 1) 100%
-  );
+  ), url("../images/background-4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }

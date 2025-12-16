@@ -1,13 +1,13 @@
 .video {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
 }
 .video__figure {
-  /* display: inline-block;
+  display: inline-block;
   flex: 1 1 300px;
-  max-width: 300px; */
+  max-width: 300px;
 }
 
 .video__figure iframe {

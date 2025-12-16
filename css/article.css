@@ -24,6 +24,18 @@
     width: 100%;
 }
 
+.article__h3 {
+    font-family: "Caesar Dressing";
+}
+
+.article__figcaption {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    font-family: "Caesar Dressing";
+    text-align: center;
+}
+
 
 
 .article:nth-of-type(odd) .article__figure{
