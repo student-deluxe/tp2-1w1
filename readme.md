@@ -1,7 +1,7 @@
 # TP2 du cours de << 1w1 mise en page web >>
-## Recette de cuisine
+## Personnage de Berserk
 ### Description
-lorem ipsum
+Petite présentation de quelque personnage de berserk
 - Auteur : Isaé Potvin
 - Cours : 1W1-Mise en page Web
 - Département : TIM
