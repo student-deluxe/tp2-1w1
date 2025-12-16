@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP2</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/formulaire.css" />
+    <link rel="stylesheet" href="css/article.css" />
+    <link rel="stylesheet" href="css/galerie.css" />
+    <link rel="stylesheet" href="css/video.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/tableau.css" />
+    <link rel="stylesheet" href="css/recherche.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Science+Gothic:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- //////////////////////////////////////////////////   Hero -->
+    <div class="conteneur hero">
+      <header class="centre hero__header" id="accueil">
+        <h1 class="hero__h1 dynapuff">Personnages de Berserk (TP2)</h1>
+        <h2 class="hero__h2">
+          Isaé Potvin, 582-1W1 – Mise en page Web
+          <form class="recherche">
+            <input
+              class="recherche__input"
+              placeholder="Rechercher"
+              type="search"
+            />
+            <img
+              class="recherche__img"
+              src="https://s2.svgbox.net/hero-outline.svg?ic=search&color=000"
+              width="25"
+              height="25"
+              alt="recherche"
+            />
+          </form>
+        </h2>
+
+        <div class="navigation">
+          <input type="checkbox" name="" id="chk-burger" />
+          <label for="chk-burger" class="menu__burger">
+            <img
+              src="https://s2.svgbox.net/hero-outline.svg?ic=menu&color=000"
+              width="32"
+              height="32"
+            />
+          </label>
+          <nav class="menu">
+            <a href="#accueil" class="menu__a">Accueil</a>
+            <a href="#inscription" class="menu__a">Inscription</a>
+            <a href="#tableaux" class="menu__a">Tableaux</a>
+            <a href="#articles" class="menu__a">Articles</a>
+            <a href="#galerie" class="menu__a">Galerie</a>
+            <a href="#video" class="menu__a">Vidéo</a>
+            <a href="#pied_de_page" class="menu__a">Pied de page</a>
+          </nav>
+        </div>
+        <div class="hero__p">
+          <h2>Technique d'intégration multimédia (TIM)</h2>
+          <p>
+            Je me présente, je me nomme Isaé Potvin et cela fait désormais une
+            session que je fais partie du programme (TIM). En technique
+            d'intégration multimédia, j'ai appris à coder des sites web, faire
+            des animations avec JavaScript, travailler avec des logiciels de
+            design comme Photoshope tout en étant dans la créativité.
+          </p>
+          <p>
+            Sur ce site monopage, je vais présenter ce que j'ai appris durant ma
+            session en montrant quelques personnages importants du manga,
+            Berserk. Ce site ne porte pas d'avis objectif sur les personnages,
+            seulement des opinions fondées sur mon interprétation du récit de
+            Berserk. Mon manga préféré.
+          </p>
+        </div>
+        <a class="hero__bouton" href="#inscription">Inscription</a>
+        <div class="hero__info">
+          <h3>Collège de Maisonneuve</h3>
+          <h3>
+            Adresse de la page Github :
+            <a href="https://student-deluxe.github.io/tp2-1w1/"
+              >https://student-deluxe.github.io/tp2-1w1/</a
+            >
+          </h3>
+          <h3>Session Automne 2025</h3>
+          <figure class="entete__sociaux">
+            <a
+              href="https://github.com/eddytuto/gr4-1w1-tp2?tab=readme-ov-file"
+            >
+              <img
+                src="https://s2.svgbox.net/social.svg?ic=github&color=000000"
+                width="25"
+                height="25"
+                alt="github"
+            /></a>
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=facebook&color=00f"
+              width="25"
+              height="25"
+              alt="facebook"
+            />
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=stackoverflow&color=a00"
+              width="25"
+              height="25"
+              alt="stackoverflow"
+            />
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=linkedin&color=0960da"
+              width="25"
+              height="16"
+              alt="linkedin"
+            />
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=messenger&color=00f"
+              width="25"
+              height="25"
+              alt="messenger"
+            />
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=discord&color=3609da"
+              width="25"
+              height="25"
+              alt="discord"
+            />
+          </figure>
+        </div>
+      </header>
+    </div>
+    <!-- //////////////////////////////////////////////////   Article -->
+    <div class="conteneur">
+      <section class="centre" id="articles">
+        <h2>Articles</h2>
+        <article class="article">
+          <div class="article__div">
+            <h3 class="article__h3">Griffith</h3>
+            <p class="article__p">
+              Griffith est un personnage charismatique et ambitieux, prêt à tout
+              pour réaliser son rêve d’avoir son propre royaume. Derrière son
+              apparence noble et inspirante se cache une peur profonde de la
+              faiblesse et de la perte de contrôle.
+            </p>
+            <p class="article__p">
+              Lors de l’Éclipse, il sacrifie ses compagnons pour renaître en
+              Femto, incarnant la trahison ultime et la rupture totale avec son
+              humanité.
+            </p>
+          </div>
+          <figure class="article__figure">
+            <img class="article__img" src="images/griffith.jpg" alt="" />
+            <figcaption class="article__figcaption"></figcaption>
+          </figure>
+        </article>
+        <article class="article">
+          <div class="article__div">
+            <h3 class="article__h3">Guts</h3>
+            <p class="article__p">
+              Guts est un guerrier marqué par une enfance de violence, de
+              solitude et de survie constante. Animé par une rage immense mais
+              aussi par un profond besoin de protection, il avance en refusant
+              de se soumettre au destin.
+            </p>
+            <p class="article__p">
+              Contrairement à Griffith, Guts incarne la résistance humaine :
+              souffrir, tomber, puis continuer malgré tout.
+            </p>
+          </div>
+          <figure class="article__figure">
+            <img class="article__img" src="images/guts.jpg" alt="" />
+            <figcaption class="article__figcaption"></figcaption>
+          </figure>
+        </article>
+        <article class="article">
+          <div class="article__div">
+            <h3 class="article__h3">Casca</h3>
+            <p class="article__p">
+              Casca est une guerrière compétente et loyale, déchirée entre son
+              devoir envers Griffith et ses sentiments profonds pour Guts. Après
+              l’Éclipse, son esprit est brisé par le traumatisme, la rendant
+              vulnérable malgré sa force passée.
+            </p>
+            <p class="article__p">
+              Elle incarne la fragilité humaine face à l’horreur, mais aussi
+              l’espoir d’une reconstruction possible.
+            </p>
+          </div>
+          <figure class="article__figure">
+            <img class="article__img" src="images/casca.jpg" alt="" />
+            <figcaption class="article__figcaption"></figcaption>
+          </figure>
+        </article>
+        <article class="article">
+          <div class="article__div">
+            <h3 class="article__h3">Skull-Knight</h3>
+            <p class="article__p">
+              Skull Knight est un guerrier mystérieux hors du temps, guidé par
+              une haine ancienne envers la Main de Dieu. Il agit dans l’ombre
+              comme un observateur du destin, intervenant uniquement aux moments
+              clés pour en perturber le cours.
+            </p>
+            <p class="article__p">
+              Symbole de la lutte contre la fatalité, il incarne la mémoire du
+              passé et l’écho d’une vengeance éternelle.
+            </p>
+          </div>
+          <figure class="article__figure">
+            <img class="article__img" src="images/skull-knight.png" alt="" />
+            <figcaption class="article__figcaption"></figcaption>
+          </figure>
+        </article>
+      </section>
+    </div>
+    <!-- //////////////////////////////////////////////////     tableau   -->
+    <div class="conteneur">
+      <section class="centre" id="tableaux">
+        <h2>TABLEAU</h2>
+        <table class="tableau">
+          <thead>
+            <tr>
+              <th>Personnage et leurs traits</th>
+              <th>Puissance globale</th>
+              <th>Rage / Volonté</th>
+              <th>Impulsivité</th>
+              <th>Résilience mentale</th>
+              <th>Puissance offensive</th>
+              <th>Corruption / Influence démoniaque</th>
+              <th>État existentiel</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Guts (Épée Dragonslayer)</td>
+              <td>950</td>
+              <td>90</td>
+              <td>10</td>
+              <td>85</td>
+              <td>95</td>
+              <td>70</td>
+              <td class="tres-haut">Rage Extrême</td>
+            </tr>
+            <tr>
+              <td>Casca (Guerrière)</td>
+              <td>680</td>
+              <td>60</td>
+              <td>20</td>
+              <td>75</td>
+              <td>80</td>
+              <td>45</td>
+              <td>Équilibre Mental Moyen</td>
+            </tr>
+            <tr>
+              <td>Griffith (Avant l’Éclipse)</td>
+              <td>720</td>
+              <td>70</td>
+              <td>40</td>
+              <td>60</td>
+              <td>85</td>
+              <td>50</td>
+              <td>Charisme Élevé</td>
+            </tr>
+            <tr>
+              <td>Griffith (Femto)</td>
+              <td>1200</td>
+              <td>100</td>
+              <td>0</td>
+              <td>100</td>
+              <td>100</td>
+              <td>90</td>
+              <td class="tres-haut">Humanité Nulle</td>
+            </tr>
+            <tr>
+              <td>Skull Knight</td>
+              <td>1100</td>
+              <td>85</td>
+              <td>0</td>
+              <td>100</td>
+              <td>95</td>
+              <td>80</td>
+              <td>Existence Hors du Temps</td>
+            </tr>
+            <tr>
+              <td>Zodd l’Immortel</td>
+              <td>1050</td>
+              <td>95</td>
+              <td>5</td>
+              <td>90</td>
+              <td>100</td>
+              <td>85</td>
+              <td class="tres-haut">Violence Absolue</td>
+            </tr>
+            <tr>
+              <td>Behelit</td>
+              <td>???</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td class="tres-bas">Destin Inévitable</td>
+            </tr>
+            <tr>
+              <td>Armure du Berserker</td>
+              <td>1300</td>
+              <td>100</td>
+              <td>0</td>
+              <td>20</td>
+              <td>110</td>
+              <td>95</td>
+              <td class="tres-haut">Autodestruction</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="legende">
+          <caption>
+            Légende
+          </caption>
+          <tr>
+            <td>Très haut</td>
+            <td>très bas</td>
+          </tr>
+          <tr>
+            <td class="tres-haut"></td>
+            <td class="tres-bas"></td>
+          </tr>
+        </table>
+      </section>
+    </div>
+    <!-- //////////////////////////////////////////////////   Galerie -->
+    <div class="conteneur galerie">
+      <section class="centre" id="galerie">
+        <h2 class="galerie__h2">Galerie</h2>
+        <figure class="galerie">
+          <figure class="galerie__figure">
+            <img src="images/galerie-0.jpg" alt="" class="galerie__img" />
+            <caption class="galerie__caption">
+              Eclispe
+            </caption>
+          </figure>
+          <figure class="galerie__figure">
+            <img src="images/galerie-1.jpg" alt="" class="galerie__img" />
+            <caption class="galerie__caption">
+              Jeune Griffith
+            </caption>
+          </figure>
+          <figure class="galerie__figure">
+            <img src="images/galerie-2.jpg" alt="" class="galerie__img" />
+            <caption class="galerie__caption">
+              Cauchemar de Guts
+            </caption>
+          </figure>
+          <figure class="galerie__figure">
+            <img src="images/galerie-3.jpg" alt="" class="galerie__img" />
+            <caption class="galerie__caption">
+              Guts dans le feu
+            </caption>
+          </figure>
+          <figure class="galerie__figure">
+            <img src="images/galerie-5.jpg" alt="" class="galerie__img" />
+            <caption class="galerie__caption">
+              La mark du sacrifice
+            </caption>
+          </figure>
+          <figure class="galerie__figure">
+            <img src="images/galerie-6.jfif" alt="" class="galerie__img" />
+            <caption class="galerie__caption">
+              Griffith mode sombre
+            </caption>
+          </figure>
+          <figure class="galerie__figure">
+            <img src="images/galerie-7.jpg" alt="" class="galerie__img" />
+            <caption class="galerie__caption">
+              Le duel
+            </caption>
+          </figure>
+          <figure class="galerie__figure">
+            <img src="images/galerie-8.jpg" alt="" class="galerie__img" />
+            <caption class="galerie__caption">
+              La band du faucon
+            </caption>
+          </figure>
+          <figure class="galerie__figure">
+            <img src="images/galerie-9.jpg" alt="" class="galerie__img" />
+            <caption class="galerie__caption">
+              Guts posseder
+            </caption>
+          </figure>
+          <figure class="galerie__figure">
+            <img src="images/galerie-10.jpg" alt="" class="galerie__img" />
+            <caption class="galerie__caption">
+              Armur du Berserker
+            </caption>
+          </figure>
+          <figure class="galerie__figure">
+            <img src="images/galerie-11.jpg" alt="" class="galerie__img" />
+            <caption class="galerie__caption">
+              le Behelit
+            </caption>
+          </figure>
+          <figure class="galerie__figure">
+            <img src="images/galerie-12.jpg" alt="" class="galerie__img" />
+            <caption class="galerie__caption">
+              Griffith
+            </caption>
+          </figure>
+        </figure>
+      </section>
+    </div>
+    <!-- //////////////////////////////////////////////////   Vidéo -->
+    <div class="conteneur">
+      <section class="centre" id="video">
+        <h2>Vidéo</h2>
+        <figure class="video">
+          <figure class="video__figure">
+            <iframe
+              width="280"
+              height="157"
+              src="https://www.youtube.com/embed/0RRrX9lKiSc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            >
+            </iframe>
+          </figure>
+          <figure class="video__figure">
+            <iframe
+              width="280"
+              height="157"
+              src="https://www.youtube.com/embed/NrtB8-ogylw"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            >
+            </iframe>
+          </figure>
+          <figure class="video__figure">
+            <iframe
+              width="280"
+              height="157"
+              src="https://www.youtube.com/embed/watch?v=vZa0Yh6e7dw&list=RDvZa0Yh6e7dw&start_radio=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            >
+            </iframe>
+          </figure>
+        </figure>
+      </section>
+    </div>
+    <!-- //////////////////////////////////////////////////   inscription -->
+    <div class="conteneur form">
+      <section class="centre" id="inscription">
+        <h2>Inscription</h2>
+        <form class="formulaire">
+          <div class="formulaire__div">
+            <label class="formulaire__label" for="nom">Nom</label>
+            <input
+              class="formulaire__input"
+              id="nom"
+              type="text"
+              placeholder="Entrez votre nom ici"
+            />
+          </div>
+          <div class="formulaire__div">
+            <label class="formulaire__label" for="prenom">Prénom</label>
+            <input
+              class="formulaire__input"
+              id="prenom"
+              type="text"
+              placeholder="Entrez otre prénom ici"
+            />
+          </div>
+          <div class="formulaire__div">
+            <label class="formulaire__label" for="courriel">Courriel</label>
+            <input
+              class="formulaire__input"
+              id="courriel"
+              type="email"
+              placeholder="Entrez votre courriel ici"
+            />
+          </div>
+          <input type="submit" value="Valider l'inscription" />
+        </form>
+      </section>
+    </div>
+    <!-- //////////////////////////////////////////////////   Pied de page  -->
+    <div class="conteneur bas">
+      <footer class="pied centre" id="pied_de_page">
+        <div class="pied__section">
+          <h3>Coordonnées</h3>
+          <ul>
+            <li>Étudiant: Isaé Potvin</li>
+            <li>Cours: 1W1-Mise en page Web</li>
+            <li>Groupe : 00</li>
+            <li>Enseignant: Eddy Martin</li>
+          </ul>
+        </div>
+        <div class="pied__section">
+          <h3>Adresse</h3>
+          <ul>
+            <li>3800 Sherbrooke est</li>
+            <li>Montréal, QC</li>
+            <li>H1X 2A2</li>
+            <li>514-254-7131</li>
+            <li>514-254-7170</li>
+          </ul>
+        </div>
+        <div class="pied__cours">
+          <h3>Cours</h3>
+          <ul>
+            <li>1W1-Mise en page Web</li>
+            <li>1J1-Animation et intéractivité en jeux</li>
+            <li>1M1-Création vidéo</li>
+            <li>1M2-Conception graphique et img matricielle</li>
+          </ul>
+        </div>
+        <div class="pied__resume">
+          <h3>En résumé</h3>
+          <p>
+            En résumer, Berserk raconte l’histoire de Guts, un guerrier
+            solitaire qui lutte contre un destin cruel dans un monde du style
+            "dark-fantasy". Après une trahison majeure lors de l’Éclipse, son
+            existence bascule dans l’horreur et la vengeance. Le manga explore
+            la souffrance, la volonté de survivre et le combat entre libre
+            arbitre et fatalité.
+          </p>
+        </div>
+        <figure class="pied__sociaux">
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=github&color=000000"
+            width="25"
+            height="25"
+            alt="github"
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=facebook&color=00f"
+            width="25"
+            height="25"
+            alt="facebook"
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=stackoverflow&color=a00"
+            width="25"
+            height="25"
+            alt="stackoverflow"
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=linkedin&color=0960da"
+            width="25"
+            height="16"
+            alt="linkedin"
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=messenger&color=00f"
+            width="25"
+            height="25"
+            alt="messenger"
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=discord&color=3609da"
+            width="25"
+            height="25"
+            alt="discord"
+          />
+        </figure>
+      </footer>
+    </div>
+  </body>
+</html>

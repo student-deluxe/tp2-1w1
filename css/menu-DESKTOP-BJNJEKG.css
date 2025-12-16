@@ -1,0 +1,41 @@
+/* ///////////////////////////////////// .menu */
+
+#chk-burger{
+    display: none; 
+}
+
+.menu{
+    position: fixed;
+    top:70px;
+    right: -320px; 
+    transition: right 0.3s ease; 
+    padding : 10px;
+    background-color: #00000098;
+    width: 300px;
+}
+
+.menu__burger{
+    position: fixed;
+    top:20px;
+    right: 20px;
+}
+
+.menu a {
+    display : block;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:3px;
+    margin:10px;
+    color : #fff;
+    /* background-color: #afd4ea17; */
+    background: linear-gradient(to left, #afd4ea00 , #afd4ea56);
+}
+.menu a:hover{
+    background: linear-gradient(to right, #afd4ea00 , #afd4ea56);
+}
+
+
+#chk-burger:checked ~ .menu {
+    right: 20px; /* Slide in */
+}

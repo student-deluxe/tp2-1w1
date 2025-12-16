@@ -1,0 +1,32 @@
+.video {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.video__figure {
+  display: inline-block;
+  flex: 1 1 300px;
+  max-width: 300px;
+}
+
+.video__figure iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9; /* Maintain aspect ratio */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .video__figure {
+    flex-basis: 250px;
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .video__figure {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}

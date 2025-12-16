@@ -1,0 +1,31 @@
+/* conteneur flex */
+.article{
+    display:flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding : 20px 0;
+}
+/* element du conteneur flex */
+.article__div{
+    flex-grow: 1 ;
+    flex-shrink:1 ;
+    flex-basis: 500px ;
+}
+/* element du conteneur flex */
+.article__figure{
+    flex-grow: 1 ;
+    flex-shrink:0 ;
+    flex-basis: 250px ;
+}
+
+
+
+.article__img{
+    width: 100%;
+}
+
+
+
+.article:nth-of-type(odd) .article__figure{
+    order : -1;
+}

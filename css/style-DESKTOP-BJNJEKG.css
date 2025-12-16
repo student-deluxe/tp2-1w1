@@ -1,0 +1,276 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 14px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* ///////////////////////////////// Général  */
+/* Les sélecteurs généraux ont un impact sur chacune des section de la page */
+body {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+figure {
+  margin: 0;
+}
+img {
+  display: block;
+  width: 100%;
+}
+
+
+.centre {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: rgb(240 248 255 / 57%);
+  padding: 30px;
+}
+
+/* ///////////////////////  Couleurs d'arrière plan de chacune des section */
+
+.conteneur:nth-of-type(1) {
+  background: linear-gradient(
+      180deg,
+      rgba(25, 25, 26, 1) 0%,
+      rgba(97, 32, 32, 0.3) 50%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../images/background-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*  background-position: 50%;*/
+}
+.conteneur:nth-of-type(2) {
+  background: linear-gradient(
+      360deg,
+      rgba(25, 25, 26, 1) 0%,
+      rgba(97, 32, 32, 0.3) 50%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../images/background-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.conteneur:nth-of-type(3) {
+  background: linear-gradient(
+      360deg,
+      rgba(25, 25, 26, 1) 0%,
+      rgba(97, 32, 32, 0.3) 50%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../images/background-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.conteneur:nth-of-type(4) {
+  background: linear-gradient(
+      360deg,
+      rgba(25, 25, 26, 1) 0%,
+      rgba(97, 32, 32, 0.3) 50%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../images/background-4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.conteneur:nth-of-type(5) {
+  background: linear-gradient(
+      360deg,
+      rgba(25, 25, 26, 1) 0%,
+      rgba(97, 32, 32, 0.3) 50%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../images/background-5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.conteneur:nth-of-type(6) {
+  background: linear-gradient(
+    360deg,
+    rgba(25, 25, 26, 1) 0%,
+    rgba(97, 32, 32, 0.3) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.conteneur:nth-of-type(7) {
+  background: linear-gradient(
+    360deg,
+    rgba(25, 25, 26, 1) 0%,
+    rgba(97, 32, 32, 0.3) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ////////////////////////////////////////////////// .hero */
+.hero__p {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px 20px 0;
+  height: auto; /* Changed from 30vh to auto for natural height */
+  gap: 20px;
+  width: 100%; /* Changed from 500px to 100% for responsiveness */
+  max-width: 500px; /* Added max-width to prevent too wide on large screens */
+}
+
+.hero__h1 {
+  font-size: 4rem;
+}
+
+.hero__h2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px 20px 0px;
+}
+
+.dynapuff {
+  font-family: "Caesar Dressing";
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  margin: 20px 0px 20px 0px;
+}
+
+.hero__bouton {
+  display: inline-block;
+  padding: 10px 30px;
+  background: linear-gradient(
+    264deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(199, 26, 26) 100%
+  );
+  /*  width : 200px; */
+  font-size: 2rem;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.hero__bouton:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(199, 26, 26) 100%
+  );
+}
+.hero__info {
+  display: flex;
+  margin: 20px 0px 20px 0px;
+  gap: 15px;
+  flex-direction: column;
+  height: auto; /* Changed from 20vh to auto */
+  justify-content: flex-end;
+}
+.entete__sociaux a {
+  display: block;
+  width: 182px;
+}
+
+.entete__sociaux {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 50%;
+}
+
+/* ///////////////////////////////// Pied de page */
+.pied {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.pied__section {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 100px;
+}
+.pied__cours {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 200px;
+}
+.pied__resume {
+  flex-grow: 2;
+  flex-shrink: 0;
+  flex-basis: 400px;
+}
+.pied__sociaux {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 200px;
+  gap: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .centre {
+    padding: 15px;
+  }
+
+  .hero__h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero__h2 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero__p {
+    width: 100%;
+    max-width: none;
+  }
+
+  .hero__info {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .entete__sociaux {
+    width: 100%;
+  }
+
+  .pied {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+
+  .centre {
+    padding: 10px;
+  }
+
+  .hero__h1 {
+    font-size: 2rem;
+  }
+
+  .hero__bouton {
+    font-size: 1.5rem;
+    padding: 8px 20px;
+  }
+}
